@@ -6,5 +6,5 @@ while True:
   print(math.sin(x))
   sys.stdout.flush()
   x+=0.1
-  sleep(0.01)
+  sleep(0.05)
 

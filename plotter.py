@@ -17,6 +17,6 @@ while True:
                 break
             plot = plot[1:] + [float(data)]
             with open(live, "w") as liveplot:
-                for x,value in enumerate(plot):
-                    liveplot.write("{} {} {}\n".format(x,value,-value))
+                for x,y in enumerate(plot):
+                    liveplot.write("{} {}\n".format(x,y))
             print('Read: "{0}"'.format(data))
